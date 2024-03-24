@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Usama Imran",
+  title: "Hi all, I'm Usama",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Desktop applications with  React JS / Electron JS / Django / Rails and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -52,12 +52,12 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and desktop applications using React and Electron JS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji('⚡ Backend developed using high-tech technologies like Django, Flask, and Rails for robustness and scalability'),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean / Google Cloud"),
+    emoji("⚡ Expertise in cross platform desktop apllications with compatibilities and native-like experiences"),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -126,23 +126,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of the Punjab, Lahore",
+      logo: require("./assets/images/punjabUniversity.png"),
+      subHeader: "Bechlor's in Software Engineering",
+      duration: "September 2018 - October 2022",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Data Stuctures, Data Base, Operating Systems, ...",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab Group of Colleges",
+      logo: require("./assets/images/punjabCollege.png"),
+      subHeader: "FSc Pre Engineering",
+      duration: "September 2015 - August 2017",
+      descBullets: ["Actively sought feedback from mentors and peers, leveraging constructive criticism to refine skills, and continually improve performance"]
     }
   ]
 };
@@ -154,15 +149,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "87%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
