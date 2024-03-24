@@ -89,8 +89,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "ember js",
+      fontAwesomeClassname: "fab fa-ember"
+    },
+    {
+      skillName: "electron js",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "npm",
@@ -148,15 +152,36 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "87%" //Insert relative proficiency in percentage
+      Stack: "Django", //Insert stack or technology you have experience in
+      progressPercentage: "87%", //Insert relative proficiency in percentage
+      color: "red"
     },
     {
-      Stack: "Backend",
+      Stack: "Ruby On Rails",
       progressPercentage: "95%"
     },
     {
-      Stack: "Programming",
+      Stack: "Flask",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "React JS",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Next JS",
+      progressPercentage: "87%"
+    },
+    {
+      Stack: "SQL / PostgreSQL",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Electron JS",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "AWS Cloud Computing",
       progressPercentage: "80%"
     }
   ],
@@ -170,9 +195,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      company: "Devsinc",
+      companylogo: require("./assets/images/devsincLogo.png"),
+      date: "June 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -180,17 +205,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Associate Software Engineer",
+      company: "Devsinc",
+      companylogo: require("./assets/images/devsincLogo.png"),
+      date: "March 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Contractor",
+      company: "Jaydee Solutions",
+      companylogo: require("./assets/images/JD.png"),
+      date: "Jan 2021 – Sep Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
